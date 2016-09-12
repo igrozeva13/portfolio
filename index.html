@@ -4,23 +4,24 @@
   <title>Portfolio Website</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
-<div id="intro" class="container-fluid">
+<div id="intro" class="container-fluid hero landscape">
   <h1>Spike Spiegel</h1>
   <h5>Freelance Photographer</h5>
-  <a href="#gallery">Gallery</a>
+  <a href="#gallery"><button class="cta">See More</button></a>
 </div>
 
-<div id="about" class="container">
+<div id="about" class="container hero">
   <h2>About Me</h2>
   <div class="row">
-    <section class="col-md-6">
+    <section class="col-md-6 left-col">
         <h2>I'm a self-taught photographer with a passion for travel and design.</h2>
     </section>
-    <section class="col-md-6">
+    <section class="col-md-6 right-col">
         <h5>I was born in Cape Town, South Africa and moved around a lot as a kid.
           To keep me distracted, my parents gave me a camera. Since then, I look at
           the world through a lens. I've visited over 30 countries and taken almost
@@ -31,61 +32,61 @@
   </div>
 </div>
 
-<div id="gallery" class="container-fluid">
+<div id="gallery" class="container-fluid hero">
   <h2>Gallery</h2>
     <div class="container">
         <div class="row">
           <section class="col-md-4">
-            <img src="img/gallery/gallery-01.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-01.jpg"></img>
           </section>
           <section class="col-md-4">
-            <img src="img/gallery/gallery-02.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-02.jpg"></img>
           </section>
           <section class="col-md-4">
-            <img src="img/gallery/gallery-03.jpg" height="300px" width="350px"></img>
-          </section>
-        </div>
-        <div class="row">
-          <section class="col-md-4">
-            <img src="img/gallery/gallery-04.jpg" height="300px" width="350px"></img>
-          </section>
-          <section class="col-md-4">
-            <img src="img/gallery/gallery-05.jpg" height="300px" width="350px"></img>
-          </section>
-          <section class="col-md-4">
-            <img src="img/gallery/gallery-06.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-03.jpg"></img>
           </section>
         </div>
         <div class="row">
           <section class="col-md-4">
-            <img src="img/gallery/gallery-07.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-04.jpg"></img>
           </section>
           <section class="col-md-4">
-            <img src="img/gallery/gallery-08.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-05.jpg"></img>
           </section>
           <section class="col-md-4">
-            <img src="img/gallery/gallery-09.jpg" height="300px" width="350px"></img>
+            <img src="img/gallery/gallery-06.jpg"></img>
+          </section>
+        </div>
+        <div class="row">
+          <section class="col-md-4">
+            <img src="img/gallery/gallery-07.jpg"></img>
+          </section>
+          <section class="col-md-4">
+            <img src="img/gallery/gallery-08.jpg"></img>
+          </section>
+          <section class="col-md-4">
+            <img src="img/gallery/gallery-09.jpg"></img>
           </section>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" class="bridge">
+<div class="container-fluid bridge hero">
 </div>
 
-<div id="contact" class="container-fluid">
+<div id="contact" class="container-fluid hero">
     <h2>Contact Me</h2>
     <p>I'm available for freelance - from events like weddings to documenting your next adventure, let's chat!</p>
-    <a href="mailto:mail@me.com">mail@me.com</a>
+    <a href="mailto:mail@me.com"><button class="cta">Contact</button></a>
       <div id="social">
         <a href="http://www.twitter.com">
-          <img src="img/icons/twitter.svg" height="20px" width="20px"></img>
+          <img src="img/icons/twitter.svg"></img>
         </a>
         <a href="http://www.instagram.com">
-          <img src="img/icons/instagram.svg" height="20px" width="20px"></img>
+          <img src="img/icons/instagram.svg"></img>
         </a>
         <a href="http://www.medium.com">
-          <img src="img/icons/medium.svg" height="20px" width="20px"></img>
+          <img src="img/icons/medium.svg"></img>
         </a>
       </div>
 </div>
@@ -102,6 +103,9 @@
   </div>
   <div id="footer-item">
       <a href="#contact">Contact</a>
+  </div>
+  <div id="copyright">
+    <span> &copy; Spike Spiegel</span>
   </div>
 </div>
 
